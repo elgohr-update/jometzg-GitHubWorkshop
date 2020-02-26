@@ -23,7 +23,7 @@ jobs:
         # The name of the image you would like to push
         name: githubworkshop217249800.azurecr.io/eshopwebmvc
         # The login username for the registry
-        username: githubworkshop217249800
+        username: Githubworkshop217249800
         # The login password for the registry
         password: $
         # Use registry for pushing to a custom registry
