@@ -25,7 +25,7 @@ jobs:
         # The login username for the registry
         username: Githubworkshop217249800
         # The login password for the registry
-        password: ${{secret.ACR_PASSWORD}}
+        password: ${{secrets.ACR_PASSWORD}}
         # Use registry for pushing to a custom registry
         registry: githubworkshop217249800.azurecr.io
         # Use dockerfile when you would like to explicitly build a Dockerfile
